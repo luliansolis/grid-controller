@@ -1,0 +1,13 @@
+{
+    "baudrate": 9600,
+    "top_ten_steps": 336,
+    "bot_ten_steps": 8100,
+    "dev_id": "xi-com:///dev/ttyACM1",
+    "port": "/dev/ttyACM0",
+    "orientation": "shadowing_led_1_wbox",
+    "att": 1,
+    "path": "/mnt/c/PhD_Code_and_Data/2DSPAO",
+    "filename": "/mnt/c/PhD_Code_and_Data/2DSPAO/output_matrix.mat",
+    "with_osc_client": 0
+
+}

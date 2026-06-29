@@ -1,0 +1,17 @@
+
+        <!DOCTYPE html>
+        <html>
+        <body>
+            <h1>SLICER Dashboard</h1>
+            <div id="plot"></div>
+            <script src="https://d3js.org/d3.v5.min.js"></script>
+
+            <script src="https://mpld3.github.io/js/mpld3.v0.5.9.min.js"></script>
+            <script>
+                fetch('plot.json')
+                    .then(r => r.json())
+                    .then(fig => mpld3.draw_figure('plot', fig));
+            </script>
+        </body>
+        </html>
+        
